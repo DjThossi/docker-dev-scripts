@@ -1,8 +1,13 @@
 # docker-dev-scripts
 
-## scripts/domains.txt
+## Project configurations
 
-## scripts/projects.sh
+### scripts/domains.txt
 
-## install.sh CLONE
+### scripts/projects.sh
 
+### install.sh CLONE
+
+## Running install.sh
+
+## Running up.sh

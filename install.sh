@@ -3,6 +3,8 @@
 set -o nounset
 set -o errexit
 
+GIT_DSN=git@github.com:DjThossi/
+
 CUR_DIR=$( cd "$(dirname "$0")" ; pwd -P )
 
 source ${CUR_DIR}/scripts/colors.sh
@@ -28,7 +30,7 @@ hinit CLONED_PROJECTS
 for PROJECT_NAME in ${PROJECTS} ; do
     if [[ ! -d ${CUR_DIR}/apps/${PROJECT_NAME} ]]; then
         echo -e "${BRIGHT_BLUE}${PROJECT_NAME}: ${BLUE}Cloning${NO_COLOR}"
-        git clone git@github.com:DjThossi/${PROJECT_NAME}.git apps/${PROJECT_NAME}
+        git clone ${GIT_DSN}${PROJECT_NAME}.git apps/${PROJECT_NAME}
         hput CLONED_PROJECTS ${PROJECT_NAME} cloned
     else
         hput CLONED_PROJECTS ${PROJECT_NAME} existing

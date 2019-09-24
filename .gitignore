@@ -1,0 +1,6 @@
+/.idea
+
+/apps/*
+
+/environments/*
+!/environments/.gitkeep
