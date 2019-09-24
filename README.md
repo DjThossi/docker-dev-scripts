@@ -13,3 +13,5 @@
 ## Running up.sh
 
 ## Running stop.sh
+
+## Running build.sh
