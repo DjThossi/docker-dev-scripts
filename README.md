@@ -11,3 +11,5 @@
 ## Running install.sh
 
 ## Running up.sh
+
+## Running stop.sh
