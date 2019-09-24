@@ -15,3 +15,5 @@ for PROJECT_NAME in ${PROJECTS} ; do
         fi
     fi
 done
+
+${CUR_DIR}/backup-settings.sh
