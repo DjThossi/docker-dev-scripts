@@ -6,7 +6,7 @@
 
 ### scripts/projects.sh
 
-### install.sh CLONE
+### install.sh GIT_DSN
 
 ## Running install.sh
 
@@ -15,3 +15,5 @@
 ## Running stop.sh
 
 ## Running build.sh
+
+## Running down.sh
