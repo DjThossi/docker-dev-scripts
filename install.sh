@@ -45,3 +45,5 @@ for PROJECT_NAME in ${PROJECTS} ; do
         ${CUR_DIR}/scripts/${PROJECT_NAME}/install.sh
     fi
 done
+
+${CUR_DIR}/up.sh
