@@ -14,7 +14,7 @@ if [[ ! -d apps/${PROJECT_NAME}/.idea ]]; then
 fi
 
 if [[ -d environments/${PROJECT_NAME}/idea ]]; then
-    echo -e "${BRIGHT_BLUE}${PROJECT_NAME}: ${BLUE}Backup idea folder to idea_bak${NO_COLOR}"
+    echo -e "${BRIGHT_BLUE}${PROJECT_NAME}: ${BLUE}Move idea folder to idea_bak${NO_COLOR}"
     mv environments/${PROJECT_NAME}/idea environments/${PROJECT_NAME}/idea_bak
 fi
 

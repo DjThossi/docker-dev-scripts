@@ -17,3 +17,4 @@ fi
 cd ${CUR_DIR}
 ./backup-idea-directory.sh ${PROJECT_NAME}
 ./backup-docker-compose-override.sh ${PROJECT_NAME}
+./backup-dot-env.sh ${PROJECT_NAME}

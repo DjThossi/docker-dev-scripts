@@ -12,7 +12,7 @@ if [[ ! -r ${DOCKER_COMPOSE_OVERRIDE_WORK_DIR} ]] ; then
 fi
 
 source ${CUR_DIR}/../colors.sh
-echo -e "${BRIGHT_BLUE}${PROJECT_NAME}: ${BLUE}backing up docker-compose.override.yml${NO_COLOR}"
+echo -e "${BRIGHT_BLUE}${PROJECT_NAME}: ${BLUE}Backup docker-compose.override.yml file${NO_COLOR}"
 DOCKER_COMPOSE_OVERRIDE_ENVIRONMENT=${CUR_DIR}/../../environments/${PROJECT_NAME}/docker-compose.override.yml
 
 cp ${DOCKER_COMPOSE_OVERRIDE_WORK_DIR} ${DOCKER_COMPOSE_OVERRIDE_ENVIRONMENT}
