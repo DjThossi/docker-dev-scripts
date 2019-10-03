@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PROJECTS="docker-dummy-a"
+PROJECTS="docker-dev-proxy docker-dummy-a"
 
 hinit() {
     rm -f /tmp/hashmap.$1

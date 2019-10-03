@@ -20,4 +20,6 @@
 
 ## Project rules for docker-compose.override.yml
 
+### Project rules for network settings
+
 ## Project rules for .env files
