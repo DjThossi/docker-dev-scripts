@@ -3,6 +3,7 @@
 ## Project configurations
 
 ### scripts/domains.txt
+Needs to have an empty line at the end of the file. Otherwise the last domain is not added to /etc/hosts file
 
 ### scripts/projects.sh
 
